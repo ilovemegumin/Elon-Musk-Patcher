@@ -146,3 +146,227 @@ section[aria-labelledby] > div {
   background-image: none !important;
   background-color: transparent !important;
 }
+
+
+html {
+  color-scheme: dark !important;
+}
+
+* {
+  scrollbar-color: #38444d #15202b;
+}
+
+hr,
+[role="separator"] {
+  border-color: #38444d !important;
+  background-color: #38444d !important;
+}
+
+[role="menu"],
+[role="listbox"],
+[data-testid="Dropdown"],
+[data-testid="sheetDialog"],
+[data-testid="HoverCard"],
+[data-testid="typeaheadResult"],
+[data-testid="TypeaheadDropdown"] {
+  background-color: #15202b !important;
+  border-color: #38444d !important;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2), 0 0 3px rgba(255, 255, 255, 0.15), 0 0 8px 2px rgba(101, 119, 134, 0.2) !important;
+}
+
+[role="menuitem"]:hover,
+[role="option"]:hover,
+[data-testid="TypeaheadUser"]:hover,
+[data-testid="typeaheadResult"]:hover {
+  background-color: #1e2732 !important;
+}
+
+[data-testid="twc-cc-mask"],
+[data-testid="mask"] {
+  background-color: rgba(91, 112, 131, 0.4) !important;
+}
+
+[data-testid="TopNavBar"] {
+  background-color: rgba(21, 32, 43, 0.85) !important;
+}
+
+input,
+textarea {
+  caret-color: #1d9bf0 !important;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #15202b inset !important;
+  -webkit-text-fill-color: #f7f9f9 !important;
+}
+
+article[data-testid="tweet"]:hover {
+  background-color: #192734 !important;
+}
+
+[data-testid="cellInnerDiv"],
+[data-testid="toolBar"],
+[data-testid="card.wrapper"] {
+  border-color: #38444d !important;
+}
+
+[data-testid="sidebarColumn"] section[aria-labelledby],
+[data-testid="sidebarColumn"] section[aria-labelledby] > div,
+[data-testid="sidebarColumn"] [data-testid="trend"] {
+  background-color: #1e2732 !important;
+}
+
+[data-testid="sidebarColumn"] [data-testid="trend"]:hover,
+[data-testid="sidebarColumn"] [data-testid="UserCell"]:hover,
+[data-testid="sidebarColumn"] section[aria-labelledby] a:hover {
+  background-color: #253341 !important;
+}
+
+[role="tab"]:hover {
+  background-color: rgba(247, 249, 249, 0.1) !important;
+}
+
+[data-testid="DmActivityContainer"],
+[data-testid="DMDrawer"],
+[data-testid="DMDrawerHeader"],
+[data-testid="conversation"],
+[data-testid="DM_Conversation_Header"] {
+  background-color: #15202b !important;
+  border-color: #38444d !important;
+}
+
+[data-testid="conversation"]:hover {
+  background-color: #1e2732 !important;
+}
+
+[data-testid$="-follow"],
+[data-testid$="-unfollow"],
+[data-testid="userActions"],
+[data-testid="editProfileButton"] {
+  border-color: #536471 !important;
+}
+
+[data-testid="tweetButton"] *,
+[data-testid="tweetButtonInline"] *,
+[data-testid="SideNav_NewTweet_Button"] * {
+  background-color: transparent !important;
+}
+
+video,
+[data-testid="videoPlayer"],
+[data-testid="videoComponent"] {
+  background-color: #000 !important;
+}
+
+.r-kemksi:not([data-testid="videoPlayer"]):not([data-testid="videoComponent"]):not(:has(video)):not([data-testid="videoPlayer"] *):not([data-testid="videoComponent"] *) {
+  background-color: #15202b !important;
+}
+
+.r-5zmot {
+  background-color: rgba(21, 32, 43, 0.85) !important;
+}
+
+[data-testid="primaryColumn"] div:has([data-testid="app-bar-back"]),
+[data-testid="primaryColumn"] div:has(> h2[role="heading"]),
+[data-testid="primaryColumn"] div:has(> div > h2[role="heading"]),
+[data-testid="primaryColumn"] div:has([role="tablist"]),
+[data-testid="primaryColumn"] div:has([role="search"]),
+[data-testid="sidebarColumn"] div:has([role="search"]) {
+  background-color: rgba(21, 32, 43, 0.85) !important;
+}
+
+[data-testid="primaryColumn"] div:has([data-testid="tweetTextarea_0"]),
+[data-testid="tweetTextarea_0"],
+[data-testid="tweetTextarea_0"] div,
+.DraftEditor-root,
+.DraftEditor-editorContainer,
+.public-DraftEditor-content {
+  background-color: #15202b !important;
+}
+
+[data-testid="SearchBox_Search_Input"],
+form[role="search"] label,
+form[role="search"] [data-testid="SearchBox_Search_Input"] {
+  background-color: transparent !important;
+}
+
+[data-testid="app-bar-back"],
+[data-testid="app-bar-close"] {
+  background-color: rgba(30, 39, 50, 0.75) !important;
+}
+
+:root[data-theme="dark"],
+[data-theme="dark"] {
+    --x-black: #15202b !important;
+  --x-bg-primary: #15202b !important;
+  --x-bg-secondary: #1e2732 !important;
+  --x-bg-tertiary: #273340 !important;
+  --x-bg-modal: #15202b !important;
+  --x-bg-sheets: #15202b !important;
+
+    --x-neutral-1100: #101a24 !important;
+  --x-neutral-1000: #1e2732 !important;
+  --x-neutral-900: #273340 !important;
+  --x-neutral-800: #2f3b49 !important;
+  --x-neutral-700: #4a5a6a !important;
+  --x-neutral-400: #8b98a5 !important;
+
+    --x-bg-alpha-100: #15202b !important;
+  --x-bg-alpha-95: rgba(21, 32, 43, 0.95) !important;
+  --x-bg-alpha-90: rgba(21, 32, 43, 0.9) !important;
+  --x-bg-alpha-85: rgba(21, 32, 43, 0.85) !important;
+  --x-bg-alpha-80: rgba(21, 32, 43, 0.8) !important;
+  --x-bg-alpha-70: rgba(21, 32, 43, 0.7) !important;
+  --x-bg-alpha-60: rgba(21, 32, 43, 0.6) !important;
+  --x-bg-alpha-50: rgba(21, 32, 43, 0.5) !important;
+  --x-bg-alpha-40: rgba(21, 32, 43, 0.4) !important;
+  --x-overlay-normal: rgba(91, 112, 131, 0.4) !important;
+  --x-overlay-strong: rgba(21, 32, 43, 0.8) !important;
+  --x-toast-bg: rgba(39, 51, 64, 0.9) !important;
+
+    --x-border-normal: #38444d !important;
+  --x-border-divider: #38444d !important;
+  --x-border-elevated: #425261 !important;
+  --x-border-hover: #425261 !important;
+
+    --x-fg-primary: #f7f9f9 !important;
+  --x-fg-secondary: #8b98a5 !important;
+  --x-fg-tertiary: #5b7083 !important;
+
+    --x-btn-secondary: #273340 !important;
+  --x-btn-secondary-hover: #2f3b49 !important;
+  --x-btn-secondary-pressed: #38444d !important;
+  --x-btn-inverted: #15202b !important;
+  --x-btn-tertiary-opaque: color-mix(in srgb, #fff 10%, #15202b) !important;
+  --x-btn-tertiary-opaque-hover: color-mix(in srgb, #fff 15%, #15202b) !important;
+  --x-btn-tertiary-opaque-pressed: color-mix(in srgb, #fff 20%, #15202b) !important;
+  --x-brand-subtle: color-mix(in srgb, #1d9bf0 14%, #15202b) !important;
+  --x-fg-inverted: #15202b !important;
+}
+
+[role="dialog"] div:has([data-testid="app-bar-close"]):not([data-testid="mask"]):not(:has([data-testid="mask"])):not([data-testid="twc-cc-mask"]):not(:has([data-testid="twc-cc-mask"])),
+[role="dialog"] div:has([data-testid="unsentButton"]):not([data-testid="mask"]):not(:has([data-testid="mask"])):not([data-testid="twc-cc-mask"]):not(:has([data-testid="twc-cc-mask"])),
+[role="dialog"] div:has(> [data-testid="toolBar"]):not([data-testid="mask"]):not(:has([data-testid="mask"])):not([data-testid="twc-cc-mask"]):not(:has([data-testid="twc-cc-mask"])),
+[role="dialog"] div:has(> div > [data-testid="toolBar"]):not([data-testid="mask"]):not(:has([data-testid="mask"])):not([data-testid="twc-cc-mask"]):not(:has([data-testid="twc-cc-mask"])),
+[role="dialog"] div:has(> div > div > [data-testid="toolBar"]):not([data-testid="mask"]):not(:has([data-testid="mask"])):not([data-testid="twc-cc-mask"]):not(:has([data-testid="twc-cc-mask"])),
+[role="dialog"] div:has(> [data-testid="toolBar"]) ~ div:not([data-testid="mask"]):not(:has([data-testid="mask"])):not([data-testid="twc-cc-mask"]):not(:has([data-testid="twc-cc-mask"])),
+[role="dialog"] div:has(> div > [data-testid="toolBar"]) ~ div:not([data-testid="mask"]):not(:has([data-testid="mask"])):not([data-testid="twc-cc-mask"]):not(:has([data-testid="twc-cc-mask"])),
+[role="dialog"] div:has(> div > div > [data-testid="toolBar"]) ~ div:not([data-testid="mask"]):not(:has([data-testid="mask"])):not([data-testid="twc-cc-mask"]):not(:has([data-testid="twc-cc-mask"])),
+[role="dialog"] div:has(~ div [data-testid="toolBar"]):not([data-testid="mask"]):not(:has([data-testid="mask"])):not([data-testid="twc-cc-mask"]):not(:has([data-testid="twc-cc-mask"])),
+[role="dialog"] div:has(~ div > div [data-testid="toolBar"]):not([data-testid="mask"]):not(:has([data-testid="mask"])):not([data-testid="twc-cc-mask"]):not(:has([data-testid="twc-cc-mask"])),
+[role="dialog"] div:has(~ div > div > div [data-testid="toolBar"]):not([data-testid="mask"]):not(:has([data-testid="mask"])):not([data-testid="twc-cc-mask"]):not(:has([data-testid="twc-cc-mask"])),
+[role="dialog"] div:has([aria-label*="返信"]):not([data-testid="mask"]):not(:has([data-testid="mask"])):not([data-testid="twc-cc-mask"]):not(:has([data-testid="twc-cc-mask"])),
+[role="dialog"] div:has([aria-label*="reply" i]):not([data-testid="mask"]):not(:has([data-testid="mask"])):not([data-testid="twc-cc-mask"]):not(:has([data-testid="twc-cc-mask"])) {
+  background-color: #15202b !important;
+}
+
+[role="dialog"]:has([data-testid="mask"]),
+[aria-modal="true"]:has([data-testid="mask"]),
+[role="dialog"]:has([data-testid="twc-cc-mask"]),
+[aria-modal="true"]:has([data-testid="twc-cc-mask"]) {
+  background-color: transparent !important;
+}
+
+.r-5zmot {
+  background-color: rgba(21, 32, 43, 0.65) !important;
+}
